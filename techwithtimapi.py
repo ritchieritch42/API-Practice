@@ -2,8 +2,7 @@
 #pip installed json, unfortunately, this didn't work either
 #pressed pause on this one for now and went to other API open source practice projects
 
-import flask
-from flask import jsonify
+from flask import Flask, jsonify
 
 app = Flask(__name__)
 
